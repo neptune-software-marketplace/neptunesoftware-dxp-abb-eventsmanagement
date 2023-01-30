@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-eventsmanagement",
 	"description": "Manage events ",
-	"ver": "23.1.30.1456",
+	"ver": "23.1.30.1512",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -88,6 +88,11 @@
 			"id": "b6998752-4c6f-ed11-ac20-0050f279cdef",
 			"description": "",
 			"name": "events_management_analytics"
+		},
+		{
+			"id": "a34eb9d7-4996-ed11-9f5f-0022489f9819",
+			"description": null,
+			"name": "Events management"
 		},
 		{
 			"id": "526b17e7-4b6f-ed11-ac20-0050f279cdef",
