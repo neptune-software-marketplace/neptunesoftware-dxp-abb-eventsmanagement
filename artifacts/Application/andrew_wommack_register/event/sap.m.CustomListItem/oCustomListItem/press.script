@@ -1,0 +1,3 @@
+oApp.to(oPageTicket);
+
+oPanel2.setHeaderText("Ticket - " + oTextEventTitle.getText())

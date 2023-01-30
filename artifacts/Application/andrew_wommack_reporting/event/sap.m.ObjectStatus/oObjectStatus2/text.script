@@ -1,0 +1,4 @@
+if (typeof checkin === "undefined" || checkin === null || checkin === "") { return; }  
+var formattedText = checkin; 
+
+return formattedText;

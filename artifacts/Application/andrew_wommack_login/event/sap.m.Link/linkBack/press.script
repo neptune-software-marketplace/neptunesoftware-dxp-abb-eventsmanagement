@@ -1,0 +1,3 @@
+formLogin.setVisible(true);
+formForgot.setVisible(false);
+formCaptcha.setVisible(false);

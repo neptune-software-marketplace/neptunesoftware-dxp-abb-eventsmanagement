@@ -1,0 +1,128 @@
+var result = xhr.responseJSON;
+console.log(result);
+
+modeloTable.setData(result);
+modeloTable1.setData(result);
+
+let counterPartners = 0;
+let counterNonPartners = 0;
+
+for (let i = 0; i < result.length; i++) {
+
+    console.log(result[i])
+
+    if (result[i].partner === "Yes")
+        counterPartners++;
+
+
+    if (result[i].partner === "No")
+        counterNonPartners++;
+
+}
+console.log(counterPartners);
+console.log(counterNonPartners);
+setTimeout(function () {
+
+
+    Highcharts.setOptions({
+        colors: ['#107e3e', '#134678']
+    });
+
+    Highcharts.chart('container1', {
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false,
+            type: 'pie'
+        },
+        title: {
+            text: "Event Atendees"
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: false
+                },
+                showInLegend: true
+            }
+        },
+        series: [{
+            name: 'Atendees',
+            colorByPoint: true,
+            data: [{
+                name: counterPartners + ' Partners',
+                y: counterPartners,
+                sliced: true,
+                selected: true
+            }, {
+                name: counterNonPartners + ' Other',
+                y: counterNonPartners
+            }]
+        }]
+    });
+}, 150);
+
+
+
+// Count checked-in atendees
+
+let checkedIn = 0;
+let noCheckIn = 0;
+
+for (let i = 0; i < result.length; i++) {
+
+    console.log(result[i])
+
+    if (result[i].checkin === "Yes")
+        checkedIn++;
+
+
+    if (result[i].checkin === "No")
+        noCheckIn++;
+
+}
+console.log(checkedIn);
+console.log(noCheckIn);
+
+setTimeout(function () {
+    Highcharts.setOptions({
+        colors: ['#107e3e', '#ea7e20']
+    });
+
+    Highcharts.chart('container2', {
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false,
+            type: 'pie'
+        },
+        title: {
+            text: "Checked-in Atendees"
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: false
+                },
+                showInLegend: true
+            }
+        },
+        series: [{
+            name: 'Checked in',
+            colorByPoint: true,
+            data: [{
+                name: checkedIn + ' Checked-in',
+                y: checkedIn,
+                sliced: true,
+                selected: true
+            }, {
+                name: noCheckIn + ' Pending',
+                y: noCheckIn
+            }]
+        }]
+    });
+}, 150);

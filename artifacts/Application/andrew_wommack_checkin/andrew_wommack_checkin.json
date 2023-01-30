@@ -1,0 +1,443 @@
+{
+	"id": "9c1fb44a-3f6f-ed11-ac20-0050f279cdef",
+	"createdAt": "2022-12-16T10:39:06.040Z",
+	"createdBy": "cezar",
+	"objects": [
+		{
+			"fieldNo": "710a7c06-fe46-46c2-d7d2-aa9f718cf726",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "f4c7feda-84ab-4831-a38b-28e816054381",
+					"fieldName": "oApp",
+					"fieldParent": "710a7c06-fe46-46c2-d7d2-aa9f718cf726",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "378718d5-911b-44c9-9ee5-fcd4cfb5b9f1",
+							"fieldName": "oPage1",
+							"fieldParent": "f4c7feda-84ab-4831-a38b-28e816054381",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Event check-in",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "backgroundDesign",
+									"grouping": "Properties",
+									"value": "List",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "42476de0-a4b3-49ab-91ce-b42513161992",
+									"fieldName": "sourceSelectPanel",
+									"fieldParent": "378718d5-911b-44c9-9ee5-fcd4cfb5b9f1",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiTinyMarginTop",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "e06160c0-1c44-4652-fc6a-05d902f251e3",
+											"fieldName": "oHTMLObject",
+											"fieldParent": "42476de0-a4b3-49ab-91ce-b42513161992",
+											"fieldType": "sap.ui.core.HTML",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "content",
+													"grouping": "Properties",
+													"value": "<video id=video width=600 height=300 style=border: 1px solid gray></video>",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "d10577c6-167d-4512-96d1-baa5774a1d49",
+									"fieldName": "oHBoxControl",
+									"fieldParent": "378718d5-911b-44c9-9ee5-fcd4cfb5b9f1",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiLargeMarginTop",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "scanBtn",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "f6b468a2-64f7-4653-90f0-68febd058a93",
+											"fieldName": "oNUIButtonScan",
+											"fieldParent": "d10577c6-167d-4512-96d1-baa5774a1d49",
+											"fieldType": "nep.bootstrap.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "btnScan",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "startScan();",
+													"script": "startScan();",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-solid/barcode",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Scan Ticket",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "margin",
+													"grouping": "Properties",
+													"value": "MarginEnd3",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "textColor",
+													"grouping": "Properties",
+													"value": "White",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "borderRadius",
+													"grouping": "Properties",
+													"value": "Rounded3",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "border",
+													"grouping": "Properties",
+													"value": "Border0",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "contextColor",
+													"grouping": "Properties",
+													"value": "Light",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "5baa3c66-e4e4-4a0b-9cc1-c10101e279d4",
+									"fieldName": "oNUIHorizontalLine",
+									"fieldParent": "378718d5-911b-44c9-9ee5-fcd4cfb5b9f1",
+									"fieldType": "nep.bootstrap.HorizontalLine",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "8fd57a0c-8151-4b21-c48f-514346bb1c31",
+					"fieldName": "oRestAPICheckIn",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "2549644f-2b6f-ed11-ac20-0050f279cdef",
+					"restOperation": "4b46b26a-8730-40d1-e22f-1dc992d75785",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "b4f804ff-dc0c-4604-e763-08b0b91ae67d",
+					"fieldName": "oJavascript_ZXing",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/oJavascript_ZXing.script",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "8ab9cd12-11d0-42cc-be9d-17b4b9afc046",
+					"fieldName": "oDialogProgress",
+					"fieldParent": 99999,
+					"fieldType": "sap.m.Dialog",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "type",
+							"grouping": "Properties",
+							"value": "Message",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Progress",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "f463e17c-d56b-46ce-fdac-3bf83aa5ac73",
+							"fieldName": "oVBox3",
+							"fieldParent": "8ab9cd12-11d0-42cc-be9d-17b4b9afc046",
+							"fieldType": "sap.m.VBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "justifyContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "fitContainer",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "c9db39da-c9f9-433b-e1ec-282faa72ac17",
+									"fieldName": "oTextMessage",
+									"fieldParent": "f463e17c-d56b-46ce-fdac-3bf83aa5ac73",
+									"fieldType": "sap.m.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Submitting ...",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiTinyMarginBottom",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "1daa044c-0579-47e7-cd71-7c21d42fead3",
+									"fieldName": "oProgressIndicator",
+									"fieldParent": "f463e17c-d56b-46ce-fdac-3bf83aa5ac73",
+									"fieldType": "sap.m.ProgressIndicator",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "displayOnly",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "23.1.30.1454",
+	"application": "andrew_wommack_checkin",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.script",
+	"header": "<script src=\"https://unpkg.com/@zxing/library@latest/umd/index.min.js\"></script>",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": true,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [
+		{
+			"id": "2549644f-2b6f-ed11-ac20-0050f279cdef",
+			"name": "events_management_tickets",
+			"ver": "23.1.25.931"
+		}
+	],
+	"package": "92508650-da6f-ed11-9f5f-000d3ade694b"
+}

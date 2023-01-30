@@ -1,0 +1,131 @@
+/* .style1 {
+    height: 58px;
+    background-color: white;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.19);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+.sapMTBSeparator {
+    height: 23.5rem;
+
+}
+
+
+.header {
+    height: 58px;
+    background-color: white;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.19);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.imageLogo {
+    margin-left: 7px;
+}
+
+
+.mainPage {
+    background-color: white;
+}
+
+
+
+.links {
+    color: #003e52;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-top: 1.2rem;
+    margin-left: 4rem;
+}
+
+
+
+.links:after {
+    display: block;
+    content: "";
+    border: 0.5px solid #ffac11;
+    visibility: hidden;
+
+}
+.sapMLnk:hover:not(.sapMLnkDsbl) {
+  color: #003e52;
+}
+.links:hover::after {
+    transform: scaleX(0);
+    visibility: visible;
+    animation: underline 0.2s cubic-bezier(.65,.05,.36,1);
+    animation-fill-mode: both;
+    
+}
+
+@keyframes underline{ 
+        50% {
+            transform: scaleX(0.5);
+        }
+        100% {
+            transform: scaleX(1);
+        }
+}
+
+
+html.sap-desktop .sapMLnk:hover:not(.sapMLnkDsbl) 
+  text-decoration: none;
+} */
+
+.image{
+    border-radius: 2%
+}
+
+.eventTitle {
+    font-size: 1.5rem;
+    color: #003e71;
+    text-decoration: underline;
+}
+
+.date {
+    font-size: 17px;
+    color: #003e71;
+    font-weight: lighter;
+}
+
+.location {
+    font-size: 12px;
+    color: #003e71;
+    font-style: italic;
+}
+
+.eventDetails {
+    font-size: 16px;
+    color: #003e71;
+}
+
+.findMore {
+    font-size: 15px;
+    color: #003e71;
+    text-decoration: underline;
+}
+
+.submitBtn {
+    color: white;
+    background-color: #000000;
+    border-color: #000000;
+    margin-right: 10px;
+}
+
+.submitBtn:focus {
+    color: white;
+    background-color: #000000;
+    border-color: #000000;
+    box-shadow: none;
+}
+
+.submitBtn:hover {
+    color: white;
+    background-color: #000000;
+    border-color: #000000;
+}

@@ -1,0 +1,3 @@
+this.setValueState();
+let lower = this.getValue().toLowerCase();
+this.setValue(lower);

@@ -1,0 +1,11 @@
+if (typeof checkin === "undefined" || checkin === null || checkin === "") { return; }
+var formattedText = checkin;
+
+if (checkin === "Yes") {
+    var formattedText = "Success";
+}
+else {
+    var formattedText = "Warning";
+}
+
+return formattedText;

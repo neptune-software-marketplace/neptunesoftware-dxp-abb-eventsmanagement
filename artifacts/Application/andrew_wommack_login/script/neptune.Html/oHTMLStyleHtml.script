@@ -1,0 +1,84 @@
+<style>
+    :root {
+        --backgroundImage: url(/public/images/neptune-dxp-wallpaper-bottom.png), url(/public/images/neptune-dxp-wallpaper-left.png), url(/public/images/neptune-dxp-wallpaper-right.png);
+    }
+    .nepLogonContainer {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 80%;
+        /* padding-top: 1rem; */
+        display: flex;
+        flex-direction: column;
+    }
+    .nepBackdropContainer {
+        margin: auto 0;
+        width: 100%;
+    }
+    .nepLogonLayout {
+        width: 100%;
+        max-width: 450px;
+        padding: 1rem;
+        margin: 1rem auto;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        background-color: rgba(255,255,255, 0.5);
+        box-shadow: 0 0 1rem 0 rgb(0 0 0 / 20%);
+        backdrop-filter: blur(10px);
+    }
+    .nepSignUpLayout {
+        max-width: 900px;
+    }
+    @media (max-width: 700px) {
+        .nepSignUpLayout {
+            max-width: 450px;
+        }
+    }
+    @media (max-width: 450px) {
+        .nepLogonContainer {
+            height: 100%;
+        }
+        .nepLogonContainer .nepBackdropContainer {
+            margin: 0;
+        }
+        .nepLogonLayout {
+            background-color: transparent;
+            box-shadow: none;
+        }
+        .nepLogonContainer .nepLogonLayout {
+            height: 100%;
+            border-radius: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+    .sapMText.nepCaptchaTxt {
+        font-size: 1.5rem;
+    }
+
+
+
+    .nepNavigationPage {
+        background: inherit;
+        background-image: var(--backgroundImage);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-size: cover, contain, contain;
+        background-position: center bottom, left top, right bottom;
+    }
+    .nepPanLinks .sapMTB {
+        border-bottom: none;
+        margin-top: 1rem;
+    }
+    .nepPanLogon {
+        border-bottom: none;
+        background-color: var(--sapBackgroundColor);
+        box-shadow: 0 0 1rem 0 rgb(0 0 0 / 20%);
+    }
+    .nepPanLogonBorder {
+        border-radius: 1rem;
+    }
+    .nepFlexPhone .sapMFlexItem {
+        width: 100%;
+        height: 100%;
+    }
+</style>

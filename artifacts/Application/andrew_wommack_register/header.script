@@ -1,0 +1,7 @@
+<!-- <script src="https://cdn.jsdelivr.net/npm/datebook@7.1.0/dist/datebook.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/datebook"></script> -->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1/assets/css/atcb.min.css">
+<script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@1" async defer></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<!-- QR code JS library  -->
+<script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>

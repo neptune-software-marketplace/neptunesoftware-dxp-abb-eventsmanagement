@@ -1,0 +1,11 @@
+if (typeof checkin === "undefined" || checkin === null || checkin === "") { return; }
+var formattedText = checkin;
+
+if (checkin === "Yes") {
+    var formattedText = "sap-icon://fa-solid/check";
+} else {
+    var formattedText = "sap-icon://pending";
+
+}
+
+return formattedText;

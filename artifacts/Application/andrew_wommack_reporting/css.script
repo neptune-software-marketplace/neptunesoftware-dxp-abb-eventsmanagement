@@ -1,0 +1,11 @@
+.highcharts-credits {
+    display: none;
+}
+
+.mainPage{
+    background-color: white;
+}
+
+.highcharts-background{
+    fill: transparent;
+}

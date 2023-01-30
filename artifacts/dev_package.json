@@ -1,0 +1,137 @@
+{
+	"id": "92508650-da6f-ed11-9f5f-000d3ade694b",
+	"createdAt": "2022-11-29T11:38:17.810Z",
+	"createdBy": "cezar",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-eventsmanagement"
+	},
+	"name": "neptunesoftware-dxp-abb-eventsmanagement",
+	"description": "Manage events ",
+	"ver": "23.1.30.1456",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "b0f386fc-406f-ed11-ac20-0050f279cdef",
+			"application": "andrew_wommack_reporting",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "a045f524-d26f-ed11-9f5f-000d3ade694b",
+			"application": "andrew_wommack_login",
+			"title": "Neptune Software Account Portal",
+			"description": "Neptune Software Account Portal"
+		},
+		{
+			"id": "9c1fb44a-3f6f-ed11-ac20-0050f279cdef",
+			"application": "andrew_wommack_checkin",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "5e414cf0-146f-ed11-ac20-0050f279cdef",
+			"application": "andrew_wommack_register",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "90ae1030-346f-ed11-ac20-0050f279cdef",
+			"name": "events_management_sendEmail",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "2549644f-2b6f-ed11-ac20-0050f279cdef",
+			"name": "events_management_tickets",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "ae24703f-2b6f-ed11-ac20-0050f279cdef",
+			"name": "events_management_tickets",
+			"description": "Events management demo"
+		}
+	],
+	"jsclass": [
+		{
+			"id": "95cd3256-336f-ed11-ac20-0050f279cdef",
+			"name": "sendEmail",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "3cef364c-336f-ed11-ac20-0050f279cdef",
+			"name": "events_management_email",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "dbbca206-4c6f-ed11-ac20-0050f279cdef",
+			"description": "",
+			"name": "events_management_check-in"
+		},
+		{
+			"id": "b6998752-4c6f-ed11-ac20-0050f279cdef",
+			"description": "",
+			"name": "events_management_analytics"
+		},
+		{
+			"id": "526b17e7-4b6f-ed11-ac20-0050f279cdef",
+			"description": "",
+			"name": "events_management_book_tickets"
+		}
+	],
+	"category": [
+		{
+			"id": "11ac1f69-4c6f-ed11-ac20-0050f279cdef",
+			"description": null,
+			"name": "events_management_tilegroup"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "5c1f539d-4c6f-ed11-ac20-0050f279cdef",
+			"name": "events_management_demo",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [
+		{
+			"id": "43f64821-306f-ed11-ac20-0050f279cdef",
+			"name": "events_management_template",
+			"description": "Ticket Information"
+		}
+	],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"media_library": [
+		{
+			"id": "572422CD-AEA0-ED11-994A-0022489F9953",
+			"updatedAt": "2023-01-30T15:00:15.476Z",
+			"name": "Events Management",
+			"parent": null,
+			"package": "92508650-DA6F-ED11-9F5F-000D3ADE694B"
+		}
+	]
+}

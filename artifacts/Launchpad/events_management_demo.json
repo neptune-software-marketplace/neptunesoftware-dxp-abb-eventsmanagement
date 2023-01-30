@@ -1,0 +1,88 @@
+{
+	"id": "5c1f539d-4c6f-ed11-ac20-0050f279cdef",
+	"createdAt": "2022-11-28T18:43:57.613Z",
+	"createdBy": "cezar",
+	"extUserRoles": [],
+	"extUserDepartments": [],
+	"catOrder": [
+		"11ac1f69-4c6f-ed11-ac20-0050f279cdef"
+	],
+	"layout": [
+		{
+			"id": "6ddf43bd-6090-4921-8fbe-5353523a87f4",
+			"css": [
+				"==OBJECT STRING==",
+				".nepCatTitle.sapMTitle {",
+				"    display: none;",
+				"}"
+			],
+			"name": "andrew_layout",
+			"active": true,
+			"style": "<style>.nepCatTitle.sapMTitle {    display: none;}</style>",
+			"cardContentAlign": "",
+			"shellContentWidth": "",
+			"ui5Theme": "sap_fiori_3"
+		}
+	],
+	"config": {
+		"enhancement": ""
+	},
+	"enhancement": [],
+	"name": "events_management_demo",
+	"title": "Events Management",
+	"description": null,
+	"startApp": null,
+	"startWebApp": null,
+	"customLogo": "",
+	"launchpadApp": "planet9_launchpad_standard",
+	"hideSidemenu": false,
+	"ui5Version": "1.108",
+	"ui5Url": null,
+	"ui5Theme": "sap_horizon",
+	"header": [
+		"==OBJECT STRING==",
+		"<script src=\"https://unpkg.com/@zxing/library@latest/umd/index.min.js\"></script>",
+		"<!-- QR code JS library  -->",
+		"<script src=\"https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js\"></script>"
+	],
+	"customTheme": null,
+	"isExternal": false,
+	"emailPattern": null,
+	"loginApp": "andrew_wommack_login",
+	"enableNotifications": false,
+	"firebaseProjectId": null,
+	"firebaseAppId": null,
+	"defaultLoginIDP": null,
+	"publicAccess": false,
+	"css": null,
+	"clientRequestTimeout": 120,
+	"limitWidth": false,
+	"searchBackgroundType": null,
+	"searchBackgroundColor": null,
+	"searchBackgroundShade": null,
+	"usedBackgroundType": null,
+	"usedBackgroundColor": null,
+	"usedBackgroundShade": null,
+	"searchEnableShadeCalc": null,
+	"usedEnableShadeCalc": null,
+	"enableTrace": false,
+	"ver": "23.1.25.923",
+	"pwa_enable": false,
+	"pwa_customImageIos": null,
+	"pwa_customImageAndroidOld": null,
+	"pwa_customImageAndroidNew": null,
+	"pwa_displayMode": null,
+	"pwa_themeColor": null,
+	"pwa_backgroundColor": null,
+	"passwordResetEmail": null,
+	"activationCodeEmail": null,
+	"package": "92508650-da6f-ed11-9f5f-000d3ade694b",
+	"cat": [
+		{
+			"id": "11ac1f69-4c6f-ed11-ac20-0050f279cdef",
+			"name": "events_management_tilegroup",
+			"title": "Portal",
+			"ver": "23.1.30.152"
+		}
+	]
+}

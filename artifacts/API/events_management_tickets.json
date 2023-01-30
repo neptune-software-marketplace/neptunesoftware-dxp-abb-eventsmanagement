@@ -1,0 +1,420 @@
+{
+	"id": "2549644f-2b6f-ed11-ac20-0050f279cdef",
+	"createdAt": "2022-11-28T14:45:33.456Z",
+	"createdBy": "cezar",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "5701d842-ae80-4651-9b1d-2d2417ef90b9",
+			"path": "/events_management_tickets",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "events_management_tickets"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "e23dc6cf-57f2-430c-ce4b-0d9ae0740fd0",
+			"path": "/events_management_tickets",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "events_management_tickets"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "events_management_tickets"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "4b46b26a-8730-40d1-e22f-1dc992d75785",
+			"path": "/events_management_tickets",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "events_management_tickets"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "events_management_tickets"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "a284010e-3693-447f-b6ce-0e87b44e1e04",
+			"path": "/events_management_tickets",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "events_management_tickets"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "4719524a-366b-46db-d155-b994dcce5a56",
+			"path": "/events_management_tickets/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "9472e82a-6a61-4c68-c160-c54bd8b2518a",
+			"name": "events_management_tickets",
+			"properties": [
+				{
+					"id": "ebaafc16-029b-4b1d-dd1a-ee128f78debd",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "81c75dab-d412-4d96-9985-a3f321ee7e40",
+					"parent": "",
+					"name": "firstName",
+					"objectType": "string"
+				},
+				{
+					"id": "d76f62a8-4760-468b-ab59-3f19bda06f38",
+					"parent": "",
+					"name": "lastName",
+					"objectType": "string"
+				},
+				{
+					"id": "255caba5-d051-4d59-8705-20b837028a3b",
+					"parent": "",
+					"name": "ticketType",
+					"objectType": "string"
+				},
+				{
+					"id": "1d5bd6fe-c5e9-4710-9fe3-db4c366aaf3f",
+					"parent": "",
+					"name": "street",
+					"objectType": "string"
+				},
+				{
+					"id": "1a54ba3f-f966-4609-d8f8-6866291f3cc0",
+					"parent": "",
+					"name": "city",
+					"objectType": "string"
+				},
+				{
+					"id": "c1654caa-8146-4549-944c-1e143a0ddb53",
+					"parent": "",
+					"name": "stateRegion",
+					"objectType": "string"
+				},
+				{
+					"id": "7a8665b0-17c3-4f07-9837-5b89c3a5d2a9",
+					"parent": "",
+					"name": "postcode",
+					"objectType": "string"
+				},
+				{
+					"id": "2bbb8a6d-aca0-441b-9b4c-8fb9cb82350d",
+					"parent": "",
+					"name": "phoneNumber",
+					"objectType": "string"
+				},
+				{
+					"id": "adf87fe7-6e3b-4063-bb73-6a79b3534740",
+					"parent": "",
+					"name": "email",
+					"objectType": "string"
+				},
+				{
+					"id": "d82f662b-f940-40e0-91ee-c6eed367ed4c",
+					"parent": "",
+					"name": "recieverName",
+					"objectType": "string"
+				},
+				{
+					"id": "42ed449e-55b8-4e4b-ea9a-73ae075df630",
+					"parent": "",
+					"name": "recieverLastName",
+					"objectType": "string"
+				},
+				{
+					"id": "42580219-104a-4612-e550-542ed7d8ed9c",
+					"parent": "",
+					"name": "recieverEmail",
+					"objectType": "string"
+				},
+				{
+					"id": "e84f998f-549e-4263-d513-b30c1e713815",
+					"parent": "",
+					"name": "event",
+					"objectType": "string"
+				},
+				{
+					"id": "769b7b61-758b-43f7-d3b3-f29c418803ff",
+					"parent": "",
+					"name": "partner",
+					"objectType": "string"
+				},
+				{
+					"id": "df9bfc85-58dc-49b2-a50a-2e4c90a0a628",
+					"parent": "",
+					"name": "checkin",
+					"objectType": "string"
+				},
+				{
+					"id": "37e5b7c4-4057-4da7-f91d-8cc42be3163d",
+					"parent": "",
+					"name": "qrcode",
+					"objectType": "string"
+				},
+				{
+					"id": "2562841e-e4d5-4ec8-b66f-2cbdde2e72e2",
+					"parent": "",
+					"name": "ticketNumber",
+					"objectType": "string"
+				},
+				{
+					"id": "b0815c54-fbec-4ed5-95aa-ddac02992995",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "19481d25-998c-493a-a22c-f4e1040899e6",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created By",
+					"objectType": "string"
+				},
+				{
+					"id": "d28a953e-2af1-4e40-cab0-d45d543da5cb",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "f86fe5c5-bf6b-4aaf-d086-4e7221a12b38",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated By",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "827e3f08-2e11-48eb-ea62-d50d9dcae9e6",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "9d7adfb4-503f-49c8-d1e2-3f0db46bc943",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "765e2b6a-6dc5-4411-a1e8-e0a01b70a47a",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "8b3c0458-d891-40ef-e79e-e3214d83c03e",
+			"name": "count",
+			"properties": [
+				{
+					"id": "213eda6a-9665-4b78-ef37-69660b29a897",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "events_management_tickets",
+	"endpoint": "/api/entity",
+	"ver": "23.1.25.931",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "92508650-da6f-ed11-9f5f-000d3ade694b",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

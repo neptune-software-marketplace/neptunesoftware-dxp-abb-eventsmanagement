@@ -1,0 +1,58 @@
+var requiredOk = true;
+
+if (!modelformSignUp.oData.firstName) requiredOk = false;
+if (!modelformSignUp.oData.lastName) requiredOk = false;
+if (!modelformSignUp.oData.eMail) requiredOk = false;
+if (!modelformSignUp.oData.company) requiredOk = false;
+if (!modelformSignUp.oData.phone) requiredOk = false;
+if (!modelformSignUp.oData.country) requiredOk = false;
+if (!modelformSignUp.oData.industry) requiredOk = false;
+if (!modelformSignUp.oData.title) requiredOk = false;
+if (!oGDPR.getSelected()){
+    sap.m.MessageToast.show("You have to accept our terms in order to register");
+    return;
+} 
+
+if (informSignUpusep8.getSelected() === false & informSignUpusep9.getSelected() === false) {
+    sap.m.MessageToast.show("Please tell us which module are you using!");
+    return;
+}
+if (!requiredOk) {
+    sap.m.MessageToast.show("Please fill in all required fields");
+    return;
+}
+
+//Triggers saving the Registration data when Signing in (Using activation code)
+inSignUp = true;
+modelformSignUp.oData.gdpraccepted = true;
+
+logonScreen.requestActivationCode({
+    username: modelformSignUp.oData.eMail,
+    type: "launchpad",
+    launchpad: "portal"
+});
+
+// save Data to Local Storage
+const storageKey = "Login" + modelformSignUp.oData.eMail;
+localStorage.setItem(storageKey, JSON.stringify(modelformSignUp.oData));
+
+
+// //Save registration details to holdingTable
+var signUpForm = modelformSignUp.oData
+var utns = modeloModelUTMs.getData();
+
+// --- Make "True" -> True (Boolean)
+if (utns.freetrial === "true") {
+     utns.freetrial = true;
+}
+
+const combined = {...signUpForm, ...utns};
+
+var options = {
+    data: combined
+};
+
+console.log(options);
+apiSaveRegistrationDetailsToTempTable(options);
+
+

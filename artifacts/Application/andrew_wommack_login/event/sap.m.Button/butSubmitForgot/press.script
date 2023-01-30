@@ -1,0 +1,6 @@
+if (!inForgotUsername.getValue()) {
+    inForgotUsername.setValueState("Enter the Email address");
+} else {
+    inForgotUsername.setValueState();
+    logonScreen.forgotPassword();
+}

@@ -1,0 +1,4 @@
+boxSignUp.setVisible(false);
+formLogin.setVisible(true);
+boxLogon.removeStyleClass("nepSignUpLayout");
+// tabLogon.setSelectedKey("SIGNIN");

@@ -1,0 +1,69 @@
+{
+	"id": "90ae1030-346f-ed11-ac20-0050f279cdef",
+	"createdAt": "2022-11-28T15:49:06.376Z",
+	"createdBy": "cezar",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "9cebf323-3bda-4244-b3a4-d81573c130cb",
+			"method": "POST",
+			"path": "/sendEmail",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "5d456197-99b1-463f-c1a4-196a325a3bbd",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": []
+				}
+			],
+			"content": [
+				{
+					"objectType": "object",
+					"items": [],
+					"name": "body"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "95cd3256-336f-ed11-ac20-0050f279cdef"
+		}
+	],
+	"definitions": [
+		{
+			"id": "9ecce24b-202d-464e-dc4f-678d060bca64",
+			"name": "body",
+			"description": "",
+			"isInclude": false,
+			"properties": []
+		}
+	],
+	"documentation": [],
+	"name": "events_management_sendEmail",
+	"endpoint": "/api/serverscript/events_management_sendemail",
+	"ver": "23.1.25.919",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "92508650-da6f-ed11-9f5f-000d3ade694b",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

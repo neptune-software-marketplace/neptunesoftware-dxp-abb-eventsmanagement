@@ -1,0 +1,10 @@
+if (typeof partner === "undefined" || partner === null || partner === "") { return; }
+var formattedText = partner;
+
+if (partner === "Yes") {
+    var formattedText = "Partner";
+}
+else {
+    var formattedText = "Other";
+}
+return formattedText;

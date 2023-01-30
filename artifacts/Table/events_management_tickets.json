@@ -1,0 +1,119 @@
+{
+	"id": "ae24703f-2b6f-ed11-ac20-0050f279cdef",
+	"createdAt": "2022-11-28T14:45:08.326Z",
+	"createdBy": "cezar",
+	"fields": [
+		{
+			"id": "30296e91-7dc1-4018-daff-fa0a41a6ef5d",
+			"fieldName": "firstName",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "a0222b9b-9d67-4332-b731-d52957174966",
+			"fieldName": "lastName",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "5c62f134-60f9-4bff-fb06-72fe5b16e239",
+			"fieldName": "ticketType",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "0390b7dc-f73c-4da5-e11b-b23143f4188c",
+			"fieldName": "street",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "8e5ceeec-b39f-4bfb-b05b-760d2ceb53d5",
+			"fieldName": "city",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "91f5fd99-1c19-48a2-daea-29db6341fd4a",
+			"fieldName": "stateRegion",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "80311ad8-38aa-4832-ff2f-5fcc3c1f0487",
+			"fieldName": "postcode",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "0b0d9528-d8f8-449d-8e17-1fc122207284",
+			"fieldName": "phoneNumber",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "d92bc224-56e6-4a26-bc51-4623794e5df9",
+			"fieldName": "email",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "0591f8dd-391c-40bb-e5a7-212e01dc5cd9",
+			"fieldName": "recieverName",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "5f46e444-8705-4704-c49a-318b81a5e35b",
+			"fieldName": "recieverLastName",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "cf2af92e-a439-4e6f-8ecc-66e049096196",
+			"fieldName": "recieverEmail",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "ec3b9508-0361-4635-c05a-82176e1a187f",
+			"fieldName": "event",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "a3056947-3734-43ca-8af0-9f6a549dedd5",
+			"fieldName": "partner",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "25da9fdc-ee48-440b-d761-c83b146ceeec",
+			"fieldName": "checkin",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "794d39dc-3682-448a-90f9-beab255ba38c",
+			"fieldName": "qrcode",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "eae17c51-8074-4b8c-9b24-812aa46ddc31",
+			"fieldName": "ticketNumber",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "events_management_tickets",
+	"description": "Events management demo",
+	"ver": "23.1.25.924",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "92508650-da6f-ed11-9f5f-000d3ade694b",
+	"rolesRead": [],
+	"rolesWrite": []
+}
