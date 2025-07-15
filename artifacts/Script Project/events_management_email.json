@@ -3,7 +3,7 @@
 	"createdAt": "2022-11-28T15:42:44.110Z",
 	"createdBy": "cezar",
 	"name": "events_management_email",
-	"description": null,
-	"ver": "23.1.25.922",
+	"description": "Email confirmation script group",
+	"ver": "25.07.15.1619",
 	"package": "92508650-da6f-ed11-9f5f-000d3ade694b"
 }

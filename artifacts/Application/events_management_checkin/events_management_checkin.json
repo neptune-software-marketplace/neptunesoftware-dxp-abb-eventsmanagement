@@ -1,7 +1,7 @@
 {
-	"id": "9c1fb44a-3f6f-ed11-ac20-0050f279cdef",
-	"createdAt": "2022-12-16T10:39:06.040Z",
-	"createdBy": "cezar",
+	"id": "e2d36906-1d1c-4eea-8d23-48811601fad8",
+	"createdAt": "2025-07-15T13:05:48.000Z",
+	"createdBy": "admin",
 	"objects": [
 		{
 			"fieldNo": "710a7c06-fe46-46c2-d7d2-aa9f718cf726",
@@ -264,7 +264,7 @@
 					"fieldName": "oJavascript_ZXing",
 					"fieldParent": 99999,
 					"fieldType": "neptune.Script",
-					"script": "file://script/neptune.Script/oJavascript_ZXing.script",
+					"script": "file://script/neptune.Script/oJavascript_ZXing.js",
 					"customComponent": false,
 					"request": [],
 					"response": [],
@@ -396,10 +396,10 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.1.30.1454",
-	"application": "andrew_wommack_checkin",
+	"ver": "25.07.15.1616",
+	"application": "events_management_checkin",
 	"title": "",
-	"description": "",
+	"description": "Check-in to the event using a QR code",
 	"enableFileStorage": false,
 	"enableManifest": false,
 	"enableStylesheet": true,
@@ -420,7 +420,8 @@
 	"ui5_language": null,
 	"ui5_url": "",
 	"cus_theme": "",
-	"css": "file:///css.script",
+	"css": "file:///css.css",
+	"compiledCss": "file:///compiledCss.css",
 	"header": "<script src=\"https://unpkg.com/@zxing/library@latest/umd/index.min.js\"></script>",
 	"manifest": "",
 	"globalScript": null,
@@ -432,12 +433,16 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "92508650-da6f-ed11-9f5f-000d3ade694b",
 	"apis": [
 		{
 			"id": "2549644f-2b6f-ed11-ac20-0050f279cdef",
 			"name": "events_management_tickets",
-			"ver": "23.1.25.931"
+			"ver": "25.07.15.1618"
 		}
-	],
-	"package": "92508650-da6f-ed11-9f5f-000d3ade694b"
+	]
 }

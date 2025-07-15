@@ -12,10 +12,12 @@
 	"configMessage": {
 		"type": "None"
 	},
+	"navbarGroupOrder": [],
+	"sidebarGroupOrder": [],
 	"title": "Portal",
 	"subTitle": null,
-	"description": null,
-	"titleAlignment": null,
+	"menuText": null,
+	"description": "Events Management Tile Group",
 	"enableFullScreen": false,
 	"hideHeader": false,
 	"backgroundType": "cards",
@@ -31,7 +33,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "23.1.30.152",
+	"ver": "25.07.15.1620",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -62,27 +64,63 @@
 	"imageMobileSize": null,
 	"hideFromMenu": false,
 	"roleTag": null,
+	"cockpitTileGroup": false,
 	"package": "92508650-da6f-ed11-9f5f-000d3ade694b",
+	"openClickTile": false,
+	"groupLayoutLight": null,
+	"groupLayoutDark": null,
+	"tileLayoutLight": null,
+	"tileLayoutDark": null,
+	"cardWidth": null,
+	"cardHeight": null,
+	"tileBackgroundHeight": null,
+	"imageHeightMedia": null,
+	"imageTabletHeightMedia": null,
+	"imageMobileHeightMedia": null,
+	"imageDark": null,
+	"imageTabletDark": null,
+	"imageMobileDark": null,
+	"imageDarkHeightMedia": null,
+	"imageTabletDarkHeightMedia": null,
+	"imageMobileDarkHeightMedia": null,
+	"forceTileAttributes": false,
+	"forceGroupAttributes": false,
+	"imageDarkNone": false,
+	"imageTabletDarkNone": false,
+	"imageMobileDarkNone": false,
+	"noInheritGroupLayout": false,
+	"noInheritTileLayout": false,
+	"navbarWidth": null,
+	"sidebarWidth": null,
+	"navbarFit": null,
+	"sidebarFit": null,
+	"FIORI_STYLE": null,
 	"roles": [],
+	"lightGroupLayouts": [],
+	"darkGroupLayouts": [],
+	"lightTileLayouts": [],
+	"darkTileLayouts": [],
 	"tiles": [
 		{
 			"id": "dbbca206-4c6f-ed11-ac20-0050f279cdef",
 			"name": "events_management_check-in",
 			"title": "Check-in",
-			"ver": "23.1.30.152"
+			"ver": "25.07.15.1610"
 		},
 		{
 			"id": "b6998752-4c6f-ed11-ac20-0050f279cdef",
 			"name": "events_management_analytics",
 			"title": "Analytics",
-			"ver": "23.1.30.152"
+			"ver": "25.07.15.1610"
 		},
 		{
 			"id": "526b17e7-4b6f-ed11-ac20-0050f279cdef",
 			"name": "events_management_book_tickets",
 			"title": "Events",
-			"ver": "23.1.30.152"
+			"ver": "25.07.15.1610"
 		}
 	],
-	"tilegroups": []
+	"tilegroups": [],
+	"navbarGroups": [],
+	"sidebarGroups": []
 }

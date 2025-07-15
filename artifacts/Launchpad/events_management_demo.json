@@ -25,13 +25,15 @@
 		}
 	],
 	"config": {
-		"enhancement": ""
+		"enhancement": "",
+		"showAccessibilityFocusIndicator": true
 	},
 	"enhancement": [],
 	"name": "events_management_demo",
 	"title": "Events Management",
-	"description": null,
+	"description": "Events Management Launchpad",
 	"startApp": null,
+	"launchpadFooter": null,
 	"startWebApp": null,
 	"customLogo": "",
 	"launchpadApp": "planet9_launchpad_standard",
@@ -48,7 +50,7 @@
 	"customTheme": null,
 	"isExternal": false,
 	"emailPattern": null,
-	"loginApp": "andrew_wommack_login",
+	"loginApp": "events_management_login",
 	"enableNotifications": false,
 	"firebaseProjectId": null,
 	"firebaseAppId": null,
@@ -66,23 +68,30 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "23.1.25.923",
+	"ver": "25.07.15.1618",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
 	"pwa_customImageAndroidNew": null,
+	"pwa_desktopScreenshotWide": null,
+	"pwa_desktopScreenshotNarrow": null,
 	"pwa_displayMode": null,
 	"pwa_themeColor": null,
+	"layout_light": null,
+	"layout_dark": null,
+	"layout_preference": 0,
 	"pwa_backgroundColor": null,
 	"passwordResetEmail": null,
 	"activationCodeEmail": null,
+	"noSubmenuHover": false,
+	"defaultLanguage": null,
 	"package": "92508650-da6f-ed11-9f5f-000d3ade694b",
 	"cat": [
 		{
 			"id": "11ac1f69-4c6f-ed11-ac20-0050f279cdef",
 			"name": "events_management_tilegroup",
 			"title": "Portal",
-			"ver": "23.1.30.152"
+			"ver": "25.07.15.1620"
 		}
 	]
 }

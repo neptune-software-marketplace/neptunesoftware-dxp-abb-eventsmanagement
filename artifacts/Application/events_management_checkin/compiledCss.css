@@ -1,0 +1,19 @@
+.btnScan {
+  color: white;
+  background-color: #000000;
+  border-color: #000000;
+  margin-right: 10px;
+}
+
+.btnScan:focus {
+  color: white;
+  background-color: #000000;
+  border-color: #000000;
+  box-shadow: none;
+}
+
+.btnScan:hover {
+  color: white;
+  background-color: #000000;
+  border-color: #000000;
+}

@@ -1,7 +1,7 @@
 {
-	"id": "5e414cf0-146f-ed11-ac20-0050f279cdef",
-	"createdAt": "2022-12-16T10:39:06.220Z",
-	"createdBy": "cezar",
+	"id": "caa63fef-874d-474d-9a12-4d9173b5ede3",
+	"createdAt": "2025-07-15T13:07:13.000Z",
+	"createdBy": "admin",
 	"objects": [
 		{
 			"fieldNo": "1084463d-65c0-43fb-be8c-bba99f5ea14a",
@@ -321,7 +321,7 @@
 																				{
 																					"attribute": "text",
 																					"grouping": "Properties",
-																					"value": "July 15, 2023 - July 19, 2023 ",
+																					"value": "December 15, 2025 - December 19, 2025 ",
 																					"script": "",
 																					"translation": []
 																				},
@@ -1423,7 +1423,7 @@
 															"attribute": "press",
 															"grouping": "Events",
 															"value": "Anonymous Function",
-															"script": "file://event/nep.bootstrap.Button/oButtonSubmit/press.script",
+															"script": "file://event/nep.bootstrap.Button/oButtonSubmit/press.js",
 															"language": "javascript",
 															"translation": []
 														},
@@ -1560,7 +1560,7 @@
 					"fieldName": "Init",
 					"fieldParent": 99999,
 					"fieldType": "neptune.Script",
-					"script": "file://script/neptune.Script/Init.script",
+					"script": "file://script/neptune.Script/Init.js",
 					"customComponent": false,
 					"request": [],
 					"response": [],
@@ -1572,7 +1572,7 @@
 					"fieldName": "functions",
 					"fieldParent": 99999,
 					"fieldType": "neptune.Script",
-					"script": "file://script/neptune.Script/functions.script",
+					"script": "file://script/neptune.Script/functions.js",
 					"customComponent": false,
 					"request": [],
 					"response": [],
@@ -1587,10 +1587,10 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.1.30.153",
-	"application": "andrew_wommack_register",
+	"ver": "25.07.15.1616",
+	"application": "events_management_register",
 	"title": "",
-	"description": "",
+	"description": "Register attendance to the event",
 	"enableFileStorage": false,
 	"enableManifest": false,
 	"enableStylesheet": true,
@@ -1611,8 +1611,9 @@
 	"ui5_language": null,
 	"ui5_url": "https://openui5.hana.ondemand.com/resources/sap-ui-core.js",
 	"cus_theme": "",
-	"css": "file:///css.script",
-	"header": "file:///header.script",
+	"css": "file:///css.css",
+	"compiledCss": "file:///compiledCss.css",
+	"header": "file:///header.html",
 	"manifest": "",
 	"globalScript": null,
 	"deleted": false,
@@ -1623,17 +1624,21 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "92508650-da6f-ed11-9f5f-000d3ade694b",
 	"apis": [
 		{
 			"id": "90ae1030-346f-ed11-ac20-0050f279cdef",
 			"name": "events_management_sendEmail",
-			"ver": "23.1.25.919"
+			"ver": "25.07.15.1617"
 		},
 		{
 			"id": "2549644f-2b6f-ed11-ac20-0050f279cdef",
 			"name": "events_management_tickets",
-			"ver": "23.1.25.931"
+			"ver": "25.07.15.1618"
 		}
-	],
-	"package": "92508650-da6f-ed11-9f5f-000d3ade694b"
+	]
 }
